@@ -17,8 +17,15 @@
   },
   "homepage": "https://github.com/ferkuellar/Cafeteria#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.21",
     "sass": "^1.60.0"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
 }

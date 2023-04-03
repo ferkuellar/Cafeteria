@@ -4,8 +4,11 @@ $color2: red;
 body {
     background-color: $color;
     font-size: 5rem;
+    display:flex;
+    gap: 2rem;
 }
 
-h1 {
-    color: $color2;
+div {
+    display: grid;
+    grid-template-columns: 3rem;
 }
