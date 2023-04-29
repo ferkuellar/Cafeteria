@@ -1,7 +1,6 @@
 body {
   background-color: blue;
   font-size: 5rem;
-  display: -ms-flexbox;
   display: flex;
   gap: 2rem;
 }
