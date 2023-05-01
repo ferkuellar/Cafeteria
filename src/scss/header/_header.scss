@@ -1,4 +1,37 @@
 //  este archivo _header.scss se va aincluir en otro archivo, su unico fin es inclurse en otro, de ahi lo va a leer y lo va a compilar
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
 
 
+.header {
+    padding: 5rem 0;
+    position: relative;
+    
+    @include m.telefono{
+        padding: 2rem 0;
+    }
 
+    &::before{
+        content: '';
+        background-color: v.$negro;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.6;
+    }
+
+
+    .contenido-header{
+        position: relative;
+    }
+};
+
+
+// header de cada pagina
+
+.header-inicio{
+    background-image: url(../img/header_inicio.jpg);
+    
+};
