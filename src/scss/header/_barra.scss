@@ -1,0 +1,9 @@
+@use 'base/mixins' as m;
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    @include m.tablet{
+        flex-direction: row;
+    }
+}
