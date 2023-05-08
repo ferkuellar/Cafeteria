@@ -606,7 +606,7 @@ a.activo {
   height: 30rem;
   width: 30rem;
   -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;
 }
 @media (min-width: 1024px) {
   .galeria .imagen:nth-child(1) {
@@ -615,7 +615,7 @@ a.activo {
   .galeria .imagen:nth-child(1) img {
     height: 62rem;
     -o-object-position: center;
-       object-position: center;
+      object-position: center;
   }
   .galeria .imagen:nth-child(2) {
     grid-column: 2/4;
