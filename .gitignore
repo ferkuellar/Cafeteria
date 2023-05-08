@@ -2,6 +2,6 @@
 node_modules
 
 # Ignora la carpeta de imagenes en build
-build/img
+
 
 # Ingnora la carpeta de imagenes de src
